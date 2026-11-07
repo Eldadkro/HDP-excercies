@@ -1,4 +1,5 @@
 uv.lock
+.DS_Store
 
 # Python and pytest caches
 __pycache__/
