@@ -1,0 +1,15 @@
+uv.lock
+
+# Python and pytest caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Temporary files and directories
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+tmp/
+temp/
