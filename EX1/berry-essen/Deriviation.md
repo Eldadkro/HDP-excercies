@@ -58,3 +58,14 @@ def sample_exponential(n, rate=1.0, seed=None):
 ```
 
 Use `sample_exponential(n, seed=42)` for reproducible samples, or `sample_exponential(n)` for a fresh random initialization. For reported experiments, supply an explicit seed so the results can be reproduced.
+
+
+## 1.5 plot for multiple n 
+
+1) we want to repeat the experiment above, were we draw exp rvs 
+2) we want to do that with n=10:100:10 (from 10 to 100 with jumps of 10, 100 included)
+3) we want to create a histogram for each, 
+we want to save a markdown with a table of the empirical avarage for each n.
+ 
+4) in addition we want to plot a scatter of the emerical avarage for each n 
+

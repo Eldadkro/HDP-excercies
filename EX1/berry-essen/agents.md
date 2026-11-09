@@ -17,6 +17,11 @@ Use random simulations to study the central limit theorem (CLT) and compare the 
 - Print the parameters and numerical summaries needed to interpret each experiment. Label plots clearly, including axes and legends.
 - Generate only plots and printed results needed for the current experiment. Put generated plots in `plots/`.
 
+## Results in Markdown
+- Whenever we discuss recording results in Markdown, append them to `results.md`; preserve existing results.
+- Put each result under a heading containing its corresponding number from `Deriviation.md` and a short, descriptive title.
+- Keep `results.md` compact and simple. Include only the results; omit unnecessary explanation or commentary unless explicitly requested.
+
 ## Mathematical conventions
 - For iid samples with mean mu and variance sigma^2 > 0, standardize sums as (sum(X_i) - n*mu) / (sigma*sqrt(n)).
 - State the sampling distribution, sample size n, and number of Monte Carlo repetitions.
