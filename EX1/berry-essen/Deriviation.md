@@ -69,3 +69,16 @@ we want to save a markdown with a table of the empirical avarage for each n.
  
 4) in addition we want to plot a scatter of the emerical avarage for each n 
 
+
+## 2. multiple repeats 
+
+
+1) now we want to repeat (1.5) M = 10^5 times for each n, collect all the results into csv (dont fix the seed so it will be random)
+2) collect the empirial avarages for each n, calculate its standard deviation and mean, plot for each n its histogram for the empirical means and write on the plot the mean and std 
+3) for each n collect the M sample means, for each empirical avarage clculate the CLT $Z$-score
+$$
+Z_{n,j} =  \lambda\sqrt{n}\left(\overline{X}_{n,j} - \frac{1}{\lambda}\right),
+\qquad j = 1, \ldots, M,
+$$
+
+plot the CDF of the Z score as a histogram.
